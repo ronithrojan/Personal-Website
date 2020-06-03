@@ -1,0 +1,22 @@
+<div class="container">
+  <nav class="navbar">
+    <h3>
+      <p>
+        <a routerLink="/homepage">Roniya Rojan</a>
+      </p>
+    </h3>
+    <ul class="main-nav">
+      <a routerLink="/homepage" class="button">Home</a>
+      <a routerLink="/about" class="button">About</a>
+      <a routerLink="/contact" class="button">Contact</a>
+    </ul>
+    <button class="mobile" (click)="toggle()" *ngIf="showNav">
+      <i class="fas fa-bars">R</i>
+    </button>
+    <div *ngIf="!showNav" class="test">
+      <a class="love" routerLink="/homepage">Home</a>
+      <a class="love" routerLink="/about">About</a>
+      <a class="love" routerLink="/contact">Contact</a>
+    </div>
+  </nav>
+</div>
