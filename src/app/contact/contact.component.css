@@ -1,0 +1,30 @@
+h4 {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: 2px solid blue;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.phonepic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("src/assets/phone.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.phonecontainer {
+  display: flex;
+  justify-content: center;
+}
