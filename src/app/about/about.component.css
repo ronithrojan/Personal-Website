@@ -1,0 +1,32 @@
+div {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  background-color: lightblue;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+p {
+  height: 200px;
+  width: 600px;
+  background-color: black;
+  color: white;
+  border: 5px solid lightblue;
+  padding: 15px;
+  overflow: scroll;
+}
+
+.pitch {
+  margin: 10px;
+}
+
+span {
+  background-color: lightblue;
+  color: black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 2px;
+}
